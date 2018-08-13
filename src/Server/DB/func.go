@@ -5,8 +5,8 @@ import (
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
 	"crypto/md5"
-	"go-with-friend-server/src/Server/DB/models"
-	"go-with-friend-server/src/Server/DB/datautil"
+	"github.com/z619850002/go-with-friend-server/src/Server/DB/models"
+	"github.com/z619850002/go-with-friend-server/src/Server/DB/datautil"
 	)
 
 

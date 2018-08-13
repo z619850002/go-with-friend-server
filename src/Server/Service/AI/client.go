@@ -12,8 +12,8 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 	"google.golang.org/genproto/googleapis/rpc/code"
-	game "go-with-friend-server/src/Server/Service/AI/proto"
-	"go-with-friend-server/src/Server/Service"
+	game "github.com/z619850002/go-with-friend-server/src/Server/Service/AI/proto"
+	"github.com/z619850002/go-with-friend-server/src/Server/Service"
 	"github.com/golang/protobuf/proto"
 	"encoding/binary"
 )

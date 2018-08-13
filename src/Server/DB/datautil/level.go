@@ -3,7 +3,7 @@ package datautil
 import (
 	"github.com/astaxie/beego/orm"
 	"fmt"
-	"go-with-friend-server/src/Server/DB/models"
+	"github.com/z619850002/go-with-friend-server/src/Server/DB/models"
 )
 
 /*----------------------------------------------------------------------------------------------*/

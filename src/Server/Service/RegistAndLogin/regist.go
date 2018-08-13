@@ -5,8 +5,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"encoding/binary"
 	"fmt"
-	"go-with-friend-server/src/Server/Service"
-	"go-with-friend-server/src/Server/DB"
+	"github.com/z619850002/go-with-friend-server/src/Server/Service"
+	"github.com/z619850002/go-with-friend-server/src/Server/DB"
 )
 
 func Regist(replay []byte) []byte{

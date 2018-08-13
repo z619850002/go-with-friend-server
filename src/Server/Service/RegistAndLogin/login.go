@@ -6,8 +6,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"fmt"
 	"strconv"
-	"go-with-friend-server/src/Server/DB"
-	"go-with-friend-server/src/Server/Service"
+	"github.com/z619850002/go-with-friend-server/src/Server/DB"
+	"github.com/z619850002/go-with-friend-server/src/Server/Service"
 	"encoding/binary"
 )
 

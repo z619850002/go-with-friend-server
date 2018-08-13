@@ -6,9 +6,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"log"
 	"strconv"
-		"go-with-friend-server/src/Server/DB/datautil"
 	"github.com/astaxie/beego/orm"
-	"go-with-friend-server/src/Server/Service"
+	"github.com/z619850002/go-with-friend-server/src/Server/Service"
+	"github.com/z619850002/go-with-friend-server/src/Server/DB/datautil"
 )
 
 var imageUrl = "http://172.26.163.124:10086/"

@@ -4,8 +4,8 @@ import (
 	"log"
 	"fmt"
 	"net/http"
-	"go-with-friend-server/src/Server/Utils"
-						)
+	"github.com/z619850002/go-with-friend-server/src/Server/Utils"
+)
 
 func main() {
 

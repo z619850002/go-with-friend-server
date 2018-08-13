@@ -6,10 +6,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"log"
 	"strconv"
-	"go-with-friend-server/src/Server/Service"
 	"github.com/astaxie/beego/orm"
-	"go-with-friend-server/src/Server/DB/datautil"
-	"go-with-friend-server/src/Server/DB/models"
+	"github.com/z619850002/go-with-friend-server/src/Server/Service"
+	"github.com/z619850002/go-with-friend-server/src/Server/DB/datautil"
+	"github.com/z619850002/go-with-friend-server/src/Server/DB/models"
 )
 
 //增加协议号码

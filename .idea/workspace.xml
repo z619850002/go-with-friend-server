@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="08b4a754-983f-429e-be58-7969e7e27aa9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/DB/datautil/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/datautil/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/DB/datautil/goodchoice.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/datautil/goodchoice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/DB/datautil/history.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/datautil/history.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/DB/datautil/level.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/datautil/level.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/DB/datautil/player.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/datautil/player.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/DB/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/Service/AI/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Service/AI/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/Service/Image/imageHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Service/Image/imageHandler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/login.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/Utils/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Utils/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +38,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="96" />
+          <entry key="go" value="97" />
           <entry key="proto" value="4" />
           <entry key="sql" value="3" />
           <entry key="yml" value="1" />
@@ -33,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="96" />
+          <entry key="Go" value="97" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="SQL" value="3" />
           <entry key="YAML" value="1" />
@@ -41,14 +54,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="9296" />
+          <entry key="go" value="9300" />
           <entry key="proto" value="2319" />
           <entry key="sql" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="9296" />
+          <entry key="Go" value="9300" />
           <entry key="PLAIN_TEXT" value="2319" />
           <entry key="SQL" value="45" />
         </counts>
@@ -59,77 +72,98 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1913480424">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="15" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="15" />
+          <entry key="SQL" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo.go">
+        <entry file="file://$PROJECT_DIR$/src/Server/DB/sql/createTable.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+            <state relative-caret-position="750">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/DB/func.go">
+        <entry file="file://$PROJECT_DIR$/src/Server/DB/models/models.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="827">
+              <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/main.go">
+        <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/account.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/net/url/url.go">
+        <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/constant.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15345">
-              <caret line="1030" column="14" selection-start-line="1030" selection-start-column="14" selection-end-line="1030" selection-end-column="14" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/net/http/client.go">
+        <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/goodchoice.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5655">
-              <caret line="390" column="17" selection-start-line="390" selection-start-column="17" selection-end-line="390" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/Service/protocol.proto">
+        <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/history.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2655">
-              <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
+            <state relative-caret-position="90">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/Service/protocol.pb.go">
+        <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/level.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2235">
-              <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
+            <state relative-caret-position="75">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -137,17 +171,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server/Service/RegistAndLogin/login.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#24#186#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/Service/Image/imageHandler.go">
+        <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/player.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="255">
+              <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <folding>
+                <element signature="e#18#146#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,18 +226,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Server/DB/datautil/account.go" />
-        <option value="$PROJECT_DIR$/src/Server/DB/datautil/goodchoice.go" />
-        <option value="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go" />
-        <option value="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/login.go" />
         <option value="$PROJECT_DIR$/src/Server/Service/protocol.pb.go" />
-        <option value="$PROJECT_DIR$/src/Server/DB/datautil/level.go" />
         <option value="$PROJECT_DIR$/src/Server/DB/datautil/battle.go" />
         <option value="$PROJECT_DIR$/src/Server/DB/datautil/constant.go" />
         <option value="$PROJECT_DIR$/src/Server/DB/sql/createTable.sql" />
         <option value="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/history.go" />
-        <option value="$PROJECT_DIR$/src/Server/DB/datautil/history.go" />
-        <option value="$PROJECT_DIR$/src/Server/DB/datautil/player.go" />
         <option value="$PROJECT_DIR$/src/Server/Service/HomepageInformation/historyController.go" />
         <option value="$PROJECT_DIR$/src/Server/DB/models/models.go" />
         <option value="$PROJECT_DIR$/src/Server/DB/datautil/player_test.go" />
@@ -197,13 +239,21 @@
         <option value="$PROJECT_DIR$/src/Server/Image/gile.go" />
         <option value="$PROJECT_DIR$/src/Server/Image/file.go" />
         <option value="$PROJECT_DIR$/src/Server/Image/handle.go" />
-        <option value="$PROJECT_DIR$/src/Server/Utils/client.go" />
-        <option value="$PROJECT_DIR$/src/Server/Service/Image/imageHandler.go" />
-        <option value="$PROJECT_DIR$/src/Server/main.go" />
         <option value="$PROJECT_DIR$/src/Server/Service/protocol.proto" />
-        <option value="$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo.go" />
-        <option value="$PROJECT_DIR$/src/Server/DB/func.go" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/src/Server/Utils/client.go" />
+        <option value="$PROJECT_DIR$/src/Server/main.go" />
+        <option value="$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo.go" />
+        <option value="$PROJECT_DIR$/src/Server/DB/datautil/player.go" />
+        <option value="$PROJECT_DIR$/src/Server/Service/Image/imageHandler.go" />
+        <option value="$PROJECT_DIR$/src/Server/Service/AI/client.go" />
+        <option value="$PROJECT_DIR$/src/Server/DB/func.go" />
+        <option value="$PROJECT_DIR$/src/Server/DB/datautil/account.go" />
+        <option value="$PROJECT_DIR$/src/Server/DB/datautil/goodchoice.go" />
+        <option value="$PROJECT_DIR$/src/Server/DB/datautil/history.go" />
+        <option value="$PROJECT_DIR$/src/Server/DB/datautil/level.go" />
+        <option value="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/login.go" />
+        <option value="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go" />
       </list>
     </option>
   </component>
@@ -224,6 +274,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,7 +305,48 @@
               <item name="go-with-friend-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="DB" type="462c0819:PsiDirectoryNode" />
+              <item name="datautil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-with-friend-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-with-friend-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="DB" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-with-friend-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-with-friend-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="DB" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-with-friend-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-with-friend-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-with-friend-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-with-friend-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-with-friend-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-with-friend-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go-with-friend-server" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +375,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,12 +426,12 @@
     <frame x="913" y="23" width="1001" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31074035" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31699687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299435" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,13 +484,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/orm/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/orm/types.go" />
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -415,20 +500,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/battle.go" />
-    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/goodchoice.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/constant.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Service/RegistAndLogin/history.go" />
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/strconv/itoa.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -445,36 +516,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Service/HomepageInformation/historyController.go" />
-    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/level.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1089">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/player_test.go" />
-    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/player.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="130" column="54" selection-start-line="130" selection-start-column="54" selection-end-line="130" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/account.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo_test.go" />
-    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/history.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Image/gile.go" />
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -492,54 +535,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/DB/sql/createTable.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/DB/models/models.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Image/handle.go" />
-    <entry file="file://$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/Utils/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/Utils/Processor.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Utils/infoStruct.go" />
-    <entry file="file://$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo.go">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -557,45 +558,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/Utils/Processor.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Service/protocol.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2655">
+        <state relative-caret-position="813">
           <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+          <folding>
+            <element signature="e#22#282#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Service/protocol.pb.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
+        <state relative-caret-position="1277">
           <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
+          <folding>
+            <element signature="e#93#176#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/Service/RegistAndLogin/login.go">
+    <entry file="file://$PROJECT_DIR$/src/Server/Utils/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#15#323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Service/Image/imageHandler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="570">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#230#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/Service/AI/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#12#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/Service/AI/proto/game.pb.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/DB/func.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="119">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/src/Server/DB/sql/createTable.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="750">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/DB/models/models.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/account.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/constant.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/goodchoice.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/history.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/level.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/player.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="e#18#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/Service/RegistAndLogin/login.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#24#186#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

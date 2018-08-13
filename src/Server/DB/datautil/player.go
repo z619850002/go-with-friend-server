@@ -4,7 +4,7 @@ import (
 	"github.com/astaxie/beego/orm"
 	"fmt"
 	"strconv"
-	"go-with-friend-server/src/Server/DB/models"
+	"github.com/z619850002/go-with-friend-server/src/Server/DB/models"
 )
 
 /*----------------------------------------------------------------------------------------------*/

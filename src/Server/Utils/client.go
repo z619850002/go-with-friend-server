@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"encoding/binary"
 	"github.com/gorilla/websocket"
-	"go-with-friend-server/src/Server/Service/RegistAndLogin"
-	"go-with-friend-server/src/Server/Service/MainPageInfo"
-	"go-with-friend-server/src/Server/Service/Image"
-	"go-with-friend-server/src/Server/Service/AI"
+	"github.com/z619850002/go-with-friend-server/src/Server/Service/MainPageInfo"
+	"github.com/z619850002/go-with-friend-server/src/Server/Service/Image"
+	"github.com/z619850002/go-with-friend-server/src/Server/Service/AI"
+	"github.com/z619850002/go-with-friend-server/src/Server/Service/RegistAndLogin"
 )
 
 const (
