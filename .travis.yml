@@ -9,3 +9,4 @@ addons:
   ssh_known_hosts: 172.26.163.124
 after_success:
   -ssh kyriezhang@172.26.163.124 -p 22 './demo_server.sh'
+  -ztjztj120
