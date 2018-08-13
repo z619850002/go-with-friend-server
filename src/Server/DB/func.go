@@ -15,7 +15,7 @@ import (
 
 func init() {
 	//datasource := "root:ztjztj120@tcp(127.0.0.1:3306)/chess"
-	datasource := "root:12345678@/gowithfriend?charset=utf8"
+	datasource := "root:12345678@tcp(172.26.164.74:3306)/gowithfriend"
 
 
 
