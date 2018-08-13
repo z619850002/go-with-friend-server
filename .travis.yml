@@ -4,7 +4,7 @@ go:
 before_install:
 - openssl aes-256-cbc -K $encrypted_e9c3b1a3b89a_key -iv $encrypted_e9c3b1a3b89a_iv
   -in id_rsa_deploy.enc -out ~/.ssh/id_rsa_deploy -d
-- chmod 600 ~/.ssh/id_rsa
+- chmod 600 ~/.ssh/id_rsa_deploy
 addons:
   ssh_known_hosts: 172.26.163.124
 after_success:
