@@ -8,4 +8,4 @@ before_install:
 addons:
   ssh_known_hosts: 172.26.163.124
 after_success:
-- sshpass -p ztjztj120 ssh -tt kyriezhang@172.26.163.124  -o stricthostkeychecking=no './demo_server.sh'
+- ssh -tt kyriezhang@172.26.163.124  -o stricthostkeychecking=no './demo_server.sh'
