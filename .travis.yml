@@ -7,8 +7,5 @@ before_install:
 - chmod 600 ~/.ssh/id_rsa
 addons:
   ssh_known_hosts: 172.26.163.124
-  apt:
-    packages:
-    - sshpass
 after_success:
-- ssh kyriezhang@172.26.163.124  -o stricthostkeychecking=no 'git pull'
+- ping 172.26.163.124
