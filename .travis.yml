@@ -6,7 +6,7 @@ before_install:
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 addons:
-  ssh_known_hosts: 172.26.163.124
+  ssh_known_hosts: 120.78.145.26
   apt:
     packages:
     - sshpass
