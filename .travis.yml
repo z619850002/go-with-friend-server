@@ -6,9 +6,9 @@ before_install:
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 addons:
-  ssh_known_hosts: 120.78.145.26
+  ssh_known_hosts: 172.26.163.124
   apt:
     packages:
     - sshpass
 after_success:
-- ssh root@120.78.145.26  -o stricthostkeychecking=no 'git pull'
+- ssh kyriezhang@172.26.163.124  -o stricthostkeychecking=no 'git pull'
