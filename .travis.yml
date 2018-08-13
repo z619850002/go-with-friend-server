@@ -11,4 +11,4 @@ addons:
     packages:
     - sshpass
 after_success:
-- ssh    -o Stricthostkeychecking=no  kyriezhang@172.26.163.124  './demo_server.sh'
+- ssh root@120.78.145.26  -o stricthostkeychecking=no 'git pull'
