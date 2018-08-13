@@ -1,0 +1,159 @@
+package datautil
+
+//record Identity type in Account
+
+//Account之中的认证方式（IdentityType）
+
+const (
+	//账号密码
+	IDENTITY_TYPE_NUMBER = "NUMBER"
+	IDENTITY_TYPE_QQ = "QQ"
+	IDENTITY_TYPE_WECHAT = "WECHAT"
+	//.........
+)
+
+
+
+//record level requirement in experience
+
+//各种升级需要的次数
+//还需要调整
+
+//获得奖励需要的落子数
+const (
+	LEVEL_FALLNUMBER_1 = 100
+	LEVEL_FALLNUMBER_2 = 200
+	LEVEL_FALLNUMBER_3 = 500
+	LEVEL_FALLNUMBER_4 = 1000
+	LEVEL_FALLNUMBER_5 = 1500
+	LEVEL_FALLNUMBER_6 = 2000
+	LEVEL_FALLNUMBER_7 = 3500
+	LEVEL_FALLNUMBER_8 = 5000
+	LEVEL_FALLNUMBER_9 = 7500
+	LEVEL_FALLNUMBER_10 = 10000
+
+)
+
+//获得奖励需要的吃子数
+const (
+	LEVEL_TAKENUMBER_1 = 1
+	LEVEL_TAKENUMBER_2 = 5
+	LEVEL_TAKENUMBER_3 = 15
+	LEVEL_TAKENUMBER_4 = 30
+	LEVEL_TAKENUMBER_5 = 45
+	LEVEL_TAKENUMBER_6 = 60
+	LEVEL_TAKENUMBER_7 = 75
+	LEVEL_TAKENUMBER_8 = 100
+	LEVEL_TAKENUMBER_9 = 150
+	LEVEL_TAKENUMBER_10 = 200
+)
+
+
+//获得奖励需要解开的死活题数
+const (
+	LEVEL_PRACTICENUMBER_1 = 10
+	LEVEL_PRACTICENUMBER_2 = 10
+	LEVEL_PRACTICENUMBER_3 = 10
+	LEVEL_PRACTICENUMBER_4 = 10
+	LEVEL_PRACTICENUMBER_5 = 10
+	LEVEL_PRACTICENUMBER_6 = 10
+	LEVEL_PRACTICENUMBER_7 = 10
+	LEVEL_PRACTICENUMBER_8 = 10
+	LEVEL_PRACTICENUMBER_9 = 10
+	LEVEL_PRACTICENUMBER_10 = 10
+)
+
+//获得奖励需要与好友对战的次数
+const (
+	LEVEL_FRIENDSBATTLE_1 = 1
+	LEVEL_FRIENDSBATTLE_2 = 5
+	LEVEL_FRIENDSBATTLE_3 = 10
+	LEVEL_FRIENDSBATTLE_4 = 15
+	LEVEL_FRIENDSBATTLE_5 = 30
+	LEVEL_FRIENDSBATTLE_6 = 50
+	LEVEL_FRIENDSBATTLE_7 = 100
+	LEVEL_FRIENDSBATTLE_8 = 150
+	LEVEL_FRIENDSBATTLE_9 = 200
+	LEVEL_FRIENDSBATTLE_10 = 300
+)
+
+//获得奖励需要的查看形势数
+const (
+	LEVEL_CIRCUMSTANCE_1 = 3
+	LEVEL_CIRCUMSTANCE_2 = 10
+	LEVEL_CIRCUMSTANCE_3 = 30
+	LEVEL_CIRCUMSTANCE_4 = 50
+	LEVEL_CIRCUMSTANCE_5 = 100
+	LEVEL_CIRCUMSTANCE_6 = 200
+	LEVEL_CIRCUMSTANCE_7 = 300
+	LEVEL_CIRCUMSTANCE_8 = 400
+	LEVEL_CIRCUMSTANCE_9 = 500
+	LEVEL_CIRCUMSTANCE_10 = 600
+)
+
+
+//record avatar edge in player
+//player之中的头像框类型
+const (
+
+)
+
+
+
+
+
+//record who is the winner in history
+
+//Winner int
+//谁是胜利者
+const  (
+	//战斗还在进行
+	HISTORY_WINNER_PROCESSING = 0
+	//player1获胜也就是黑棋获胜
+	HISTORY_WINNER_PLAYER1 = 1
+	HISTORY_WINNER_PLAYER_BLACK = 1
+	//player2获胜也就是白棋获胜
+	HISTORY_WINNER_PLAYER2 = 2
+	HISTORY_WINNER_PLAYER_WHITE = 2
+)
+
+//record battle type in history
+
+//Type int
+//历史战斗的类型
+const  (
+	//好友对战
+	HISTORY_TYPE_FRIENDS = 0
+	//智能匹配对战
+	HISTORY_TYPE_SMART = 1
+	//与人工智能对战
+	HISTORY_TYPE_AI = 2
+)
+
+
+
+//record whose turn in battle
+
+//Turn bool
+//轮到谁下棋
+const  (
+	//轮到player1也就是黑棋下棋
+	BATTLE_TURN_PLAYER1 = true
+	BATTLE_TURN_PLAYER_BLACK = true
+	//轮到player2也就是白棋下棋
+	BATTLE_TURN_PLAYER2 = false
+	BATTLE_TURN_PLAYER_WHITE = false
+)
+
+
+//record whose turn in invitation
+
+//Turn bool
+//邀请模式里面谁先下也就是谁是黑子
+const  (
+	//邀请者先下
+	INVITATION_TURN_INVITER = true
+	//被邀请者先下
+	INVITATION_TURN_INVITEE = false
+)
+

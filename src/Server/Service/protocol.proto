@@ -1,0 +1,263 @@
+syntax = "proto3";
+package Module;
+
+enum ModuleId
+{
+    //请求登陆
+    LoginReq = 0;
+    LoginResp = 1;
+    //请求注册
+    RegisterReq = 2;
+    RegisterResp = 3;
+    //请求获得玩家的信息
+    PlayerInfoReq = 4;
+    PlayerInfoResp = 5;
+    //请求获得theirturn
+    TheirturnReq = 6;
+    TheirturnResp = 7;
+    //请求获得pending
+    PendingReq = 8;
+    PendingResp = 9;
+    //请求获得myturn
+    MyturnReq = 10;
+    MyturnResp = 11;
+
+    //请求获得对战的history
+    MyHistoryReq = 14;
+    MyHistoryResp = 15;
+
+    //请求获得收藏的history
+    MyCollectedHistoryReq = 16;
+    MyCollectedHistoryResp = 17;
+
+    //获取头像
+    AvatarReq = 18;
+    AvatarResp = 19;
+
+    //ai下棋
+    Ainewgamereq = 20;      //ai battle请求
+    Playerstep = 21;        //玩家下棋的位置
+    Aistep = 22;            //ai 下棋位置的 返回
+    Aioldgameresp = 23;      //继续未完成的ai battle请求 的 返回
+}
+
+message Player
+{
+    //登陆请求
+    message LoginReq
+    {
+         string userName = 1;
+         string passWord = 2;
+    }
+    //登陆结果
+    message LoginResp
+    {
+        enum LoginResult
+        {
+            Login_Success = 0;
+            Login_Failure = 1;
+            Login_WrongPasswordOrAccount = 2;
+            Login_NonexistentAccount = 3;
+        }
+        LoginResult result = 1;
+        string id = 2;
+    }
+    //注册请求
+    message RegisterReq
+    {
+        string userName = 1;
+        string passWord = 2;
+    }
+    //注册结果
+    message RegisterResp
+    {
+        enum RegisterResult
+        {
+            Register_Success = 0;
+            Register_Failure = 1;
+            Register_Duplicate = 2;
+        }
+        RegisterResult result = 1;
+    }
+
+
+
+
+
+    //请求玩家信息请求
+    message PlayerInfoReq
+    {
+        string id =1;
+    }
+    //请求玩家信息结果
+    message PlayerInfoResp
+    {
+        string nickname = 1;
+        string avatar = 2;
+        string avataredge = 3;
+    }
+
+    //请求theirturn
+    message TheirturnReq
+    {
+        string id =1;
+    }
+    //请求获得theirturn结果
+    message TheirturnResp
+    {
+        repeated game_underway theirturn =1;
+    }
+
+    //请求获得pending
+    message PendingReq
+    {
+        string id =1;
+    }
+     //请求获得pending结果
+    message PendingResp
+    {
+        repeated pending pending = 1;
+    }
+    //请求获得myturn
+    message MyturnReq
+    {
+        string id =1;
+    }
+     //请求获得myturn结果
+    message MyturnResp
+    {
+        repeated game_underway myturn =1;
+    }
+
+
+    //14,15  请求获得对战的history
+    message MyHistoryReq
+    {
+    //注意，这里是player的id，使用player的id来获取这个人曾经参加过的比赛信息
+        string id = 1;
+    }
+
+    message MyHistoryResp
+    {
+        repeated history_info myhistories = 1;
+    }
+
+
+    //16,17     请求收藏的history
+    message MyCollectedHistoryReq
+    {
+        string id = 1;
+    }
+
+
+
+    message MyCollectedHistoryResp
+    {
+        //这里也是player的id，获取这个人曾经收藏的比赛信息
+        repeated history_info collectedhistories = 1;
+    }
+
+    //18 19 请求获得头像
+    message AvatarReq
+    {
+        string id = 1;
+    }
+
+    message AvatarResp
+    {
+        string url = 1;
+    }
+
+
+
+
+    //进行中的棋局
+    message game_underway
+    {
+
+        int64 id =1;                   //棋盘的id
+        bool opponent_status = 2;       //对手是否在线
+        int64 opponent_id = 3;
+        string opponent_nickname = 4;
+        string opponent_profile = 5;
+        int64 bystanders = 6;             //观看人数
+        int64 step = 7;                 //总步数
+        int64 likenum = 8;              //赞数
+        string laststeptime = 9;        //上一步时间
+        int64 type = 10;                //棋局类型
+        int64 commentnum = 11;           //评论数
+    }
+    //别人的邀请
+    message pending
+    {
+        bool opponent_status = 1;
+        int64  opponent_id = 2;
+        string opponent_nickname = 3;
+        string opponent_profile = 4;
+        int64 opponent_dan = 5;
+        int64 boardsize = 6;
+        bool color = 7;         //自己执棋的颜色
+        string time = 8;       //邀请时间
+        string type = 9;        //邀请方式
+    }
+
+    //历史棋局信息
+    message history_info
+    {
+        int64 id = 1;        //棋局的id
+
+        //player相关信息
+        int64   player1_id = 2;         //黑方的玩家id
+        string  player1_nickname = 3;   //黑方的昵称
+        string  player1_profile = 4;    //黑方的外观头像
+        int64   player1_score = 5;      //黑方目数
+        int64   player2_id = 6;         //白方的玩家id
+        string  player2_nickname = 7;   //白方的昵称
+        string  player2_profile = 8;    //白方的外观头像
+        int64   player2_score = 9;      //白方目数
+
+
+        //数字信息
+        int64   bystanders = 10;          //观战人数
+        int64   step = 11;                 //总步数
+        int64   likenum = 12;              //总赞数
+        int64   type = 13;               //棋局类型
+        int64   commentnum = 14;         //评论数
+        int64   winner = 15;             //胜利者，1代表player1也就是黑旗胜，2代表player2也就是白棋胜，0代表还没有下完
+
+
+        //字符串信息
+        string  finishtime = 16;         //上一步时间
+        string  board = 17;              //棋盘信息，用来放置棋局的状态
+    }
+}
+
+message Ai{
+    //棋的坐标
+    message Position
+    {
+        int32 x = 1;
+        int32 y = 2;
+    }
+    message Ainewgamereq
+    {
+        string id = 1;      //玩家的id
+        bool flag = 2;      //是否为没有下完的棋局，如果是，后面几个属性随便填写
+        bool color = 3;     //玩家所选择的执方颜色，黑色：false，白色：true
+        string size = 4;    //棋盘的大小，即9/13/19
+        Position position =  5;    //如果玩家执方未黑色，p为第一步的位置
+    }
+    message Playerstep
+    {
+        string id = 1;      //玩家的id
+        Position position =  5;    //如果玩家执方未黑色，p为第一步的位置
+    }
+    message Aistep
+    {
+        Position position =  1;    //ai下棋的位置
+    }
+    message Aioldgameresp
+    {
+        string chessboard = 1;      //棋局样式
+    }
+}
