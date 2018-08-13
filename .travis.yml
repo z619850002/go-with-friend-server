@@ -8,4 +8,4 @@ before_install:
 addons:
   ssh_known_hosts: 172.26.163.124
 after_success:
-- ssh -tt kyriezhang@172.26.163.124  StrictHostKeyChecking=no -p 22 './demo_server.sh'
+- ssh -tt kyriezhang@172.26.163.124 -p 22 './demo_server.sh'
