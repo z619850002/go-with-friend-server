@@ -8,4 +8,4 @@ before_install:
 addons:
   ssh_known_hosts: 120.78.145.26
 after_success:
-- ping 120.78.145.26
+- ssh root@120.78.145.26 'sh ./repostories/demo.sh'
