@@ -11,4 +11,4 @@ addons:
     packages:
     - sshpass
 after_success:
-- sshpass -p ztjztj120 ssh -o stricthostkeychecking=no kyriezhang@172.26.163.124  './demo_server.sh'
+- ping baidu.com
