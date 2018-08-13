@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b4a754-983f-429e-be58-7969e7e27aa9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/DB/datautil/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/datautil/account.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/DB/datautil/goodchoice.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/datautil/goodchoice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/DB/datautil/history.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/datautil/history.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/DB/datautil/level.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/datautil/level.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/DB/datautil/player.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/datautil/player.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/DB/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/DB/func.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/Service/AI/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Service/AI/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/Service/Image/imageHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Service/Image/imageHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/login.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/Utils/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Utils/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,54 +69,48 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="go" value="37" />
+          <entry key="yml" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Go" value="37" />
+          <entry key="YAML" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="go" value="15" />
+          <entry key="md" value="1" />
           <entry key="sql" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Go" value="15" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/DB/sql/createTable.sql">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+            <state relative-caret-position="150">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/DB/models/models.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="827">
-              <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/DB/datautil/account.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -177,16 +158,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="e#24#186#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -240,7 +226,6 @@
         <option value="$PROJECT_DIR$/src/Server/Image/file.go" />
         <option value="$PROJECT_DIR$/src/Server/Image/handle.go" />
         <option value="$PROJECT_DIR$/src/Server/Service/protocol.proto" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/Server/Utils/client.go" />
         <option value="$PROJECT_DIR$/src/Server/main.go" />
         <option value="$PROJECT_DIR$/src/Server/Service/MainPageInfo/historyInfo.go" />
@@ -254,6 +239,7 @@
         <option value="$PROJECT_DIR$/src/Server/DB/datautil/level.go" />
         <option value="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/login.go" />
         <option value="$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -426,12 +412,12 @@
     <frame x="913" y="23" width="1001" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31699687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31699687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -537,13 +523,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Image/handle.go" />
     <entry file="file://$PROJECT_DIR$/src/Server/Utils/infoStruct.go" />
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/net/url/url.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15345">
@@ -710,11 +689,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/Service/RegistAndLogin/regist.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="e#24#186#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>

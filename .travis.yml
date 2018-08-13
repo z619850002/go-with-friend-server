@@ -1,3 +1,11 @@
 language: go
 go:
-- "1.10"
+- '1.10'
+before_install:
+- openssl aes-256-cbc -K $encrypted_e9c3b1a3b89a_key -iv $encrypted_e9c3b1a3b89a_iv
+  -in id_rsa.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+addons:
+  ssh_known_hosts: 172.26.163.124
+after_success:
+  -ssh kyriezhang@172.26.163.124 "./demo_server.sh"
